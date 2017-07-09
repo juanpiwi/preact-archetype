@@ -1,0 +1,25 @@
+@import "variables.scss";
+
+@mixin circle-items{
+	border-radius: 100%;
+}
+
+.white{
+	background-color: $white;
+}
+.linetop{
+	border-top: 1px solid $grey;
+}
+.line{
+	border-bottom: 1px solid $blackgrey;
+}
+.line-top{
+	border-top: 1px solid $grey;
+	padding-top: 10px
+}
+.padding{
+	padding: 4px 0px;
+}
+.padding-xl{
+	padding: 13px 1px
+}

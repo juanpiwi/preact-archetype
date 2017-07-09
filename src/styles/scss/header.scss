@@ -1,0 +1,36 @@
+@import "variables.scss";
+
+header{
+    background-color: $red;
+    border-bottom: 1px solid $borders;
+    //margin-bottom: 1em;
+    height: 80px;
+    .layout-container{
+        overflow: hidden;
+        max-height: 80px;
+        line-height: 80px;
+    }
+    .logo,
+    .bookmark{
+        display: inline-block;
+    }
+    .logo{
+        float: left;
+    }
+    .bookmark{
+        float: right;
+    }
+    .verticalTitle{
+      font-size: 16pt;
+      font-family: $regular;
+      color: $white;
+      text-align: center;
+    }
+    h1{
+        img {
+            width: 50px;
+            height: auto;
+            margin: 14px;
+        }
+    }
+}

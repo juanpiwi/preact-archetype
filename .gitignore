@@ -1,0 +1,8 @@
+src/client.min.js
+node_modules
+npm-debug.log
+build.tar.gz
+yarn.lock
+.yarnclean
+build
+server

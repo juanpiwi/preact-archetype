@@ -1,0 +1,35 @@
+@import "./general.scss";
+
+.title-detail{
+  color: $black;
+  font-family: $medium;
+  font-size: 15pt;
+  font-weight: 500;
+  line-height: 60px;
+  border-bottom: 1px solid $grey;
+  padding-left: 7px;
+}
+.list-detail{
+  padding: 8px;
+  list-style: none;
+  background-color: $white;
+  margin: 0;
+  li{
+    margin: 15px 0;
+    strong{
+      width: 100%;
+      display: block;
+      font-size: 11pt;
+      color: $black;
+      font-weight: 300;
+    }
+    span{
+      color: $blackgrey;
+      font-family: $light;
+      font-size: 13pt;
+      font-weight: 300;
+      line-height: 25px;
+      display: block;
+    }
+  }
+}
